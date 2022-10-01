@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>js template</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font Awesome icons-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- start loading  -->
+  <div class="loading">
+    <span class="fa-spin"></span>
+  </div>
+  <!-- start loading  -->
+  <!-- start landing -->
+  <div class="landing">
+    <div class="container">
+      <div class="header">
+        <h3>amazing</h3>
+        <div class="nav">
+          <ul class="links">
+            <li><a data-class=".about">about</a></li>
+            <li><a data-class=".skills">skills</a></li>
+            <li><a data-class=".gallery">gallery</a></li>
+            <li>
+              <a class="menu-btn">
+                sections
+              </a>
+              <div class="mega-menu">
+                <ul>
+                  <li>
+                    <a data-class=".time-line"><i class="fas fa-user-clock fa-fw"></i>time line</a>
+                  </li>
+                  <li>
+                    <a data-class=".features"><i class="fas fa-code"></i> features</a>
+                  </li>
+                  <li>
+                    <a data-class=".testimonials"><i class="far fa-comments fa-fw"></i>testimonials</a>
+                  </li>
+                  <li>
+                    <a data-class=".contact-us"><i class="fas fa-phone fa-fw"></i>contact us</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a data-class=".features"><i class="fas fa-code"></i> features</a>
+                  </li>
+                  <li>
+                    <a data-class=".testimonials"><i class="far fa-comments fa-fw"></i>testimonials</a>
+                  </li>
+                  <li>
+                    <a data-class=".testimonials"><i class="far fa-comments fa-fw"></i>testimonials</a>
+                  </li>
+                  <li>
+                    <a data-class=".testimonials"><i class="far fa-comments fa-fw"></i>testimonials</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="intro-text">
+      <h1>welcome to <span>mahmoud</span> website!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sit vero maxime aliquid ad animi odit repellat magni tenetur quidem quaerat in minima dolore ea explicabo, voluptate perspiciatis possimus! Quaerat.</p>
+    </div>
+    <!-- start floating menu  -->
+    <div class="floating-menu">
+      <div class="icon">
+        <i class="fas fa-gear"></i>
+      </div>
+      <div class="option">
+        <h3>choose your color</h3>
+        <ul class="colors">
+          <li class="active" data-color="#D28D00"></li>
+          <li data-color="#C80398"></li>
+          <li data-color="#099BCD"></li>
+          <li data-color="#09CD89"></li>
+          <li data-color="#CD0938"></li>
+        </ul>
+      </div>
+      <div class="stop-random option">
+        <h3>change of background image</h3>
+        <div class="btns">
+          <span class="yes active" data-random="yes">yes</span>
+          <span class="no" data-random="no">no</span>
+        </div>
+      </div>
+      <div class="option imgs">
+        
+      </div>
+      <div class="option">
+        <button class="reset-all">reset all</button>
+      </div>
+    </div>
+  </div>
+  <span class="to-up"></span>
+  <!-- end landing -->
+  <!-- start about -->
+  <div class="about">
+    <div class="sub-heading">
+      <h3 class="main-heading">about Us</h3>
+      <span class="icons"></span>
+    </div>
+    <div class="container">
+      <div class="about-cont">
+        <div class="box">
+          <i class="fas fa-map-marker-alt fa-3x"></i>
+          <div class="text">
+            <h3>right site</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eligendi porro voluptatibus, animi laboriosam quae.</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-elevator fa-3x"></i>
+          <div class="text">
+            <h3>always moved</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi unde, illo quia enim, consequuntur earum.</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-code fa-3x"></i>
+          <div class="text">
+            <h3>coded well</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque et molestias, in eos fugiat iusto ut facilis maxime sint nam!</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-dungeon fa-3x"></i>
+          <div class="text">
+            <h3>on fire</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ducimus enim commodi reiciendis vero tempora illo est fugiat consectetur libero!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end about -->
+  <!-- start skills -->
+  <div class="skills">
+    <div class="sub-heading">
+      <h3 class="main-heading">skills</h3>
+      <span class="icons"></span>
+    </div>
+    <div class="container">
+      <div class="progress">
+        <h3>html</h3>
+        <span data-score="80%"></span>
+      </div>
+      <div class="progress">
+        <h3>css</h3>
+        <span data-score="90%"></span>
+      </div>
+      <div class="progress">
+        <h3>javascript</h3>
+        <span data-score="70%"></span>
+      </div>
+      <div class="progress">
+        <h3>bootstrap</h3>
+        <span data-score="50%"></span>
+      </div>
+    </div>
+  </div>
+  <!-- end skills -->
+  <!-- start gallery -->
+  <div class="gallery">
+    <div class="sub-heading">
+      <h3 class="main-heading">gallery</h3>
+      <span class="icons"></span>
+    </div>
+    <div class="container">
+      <div class="imgs">
+        <img src="imgs/gallery-01.png" alt="image one">
+        <img src="imgs/gallery-02.png" alt="image two">
+        <img src="imgs/gallery-03.jpg" alt="image three">
+        <img src="imgs/gallery-04.png" alt="image four">
+        <img src="imgs/gallery-05.jpg" alt="image five">
+        <img src="imgs/gallery-06.png" alt="image six">
+      </div>
+    </div>
+  </div>
+  <!-- end gallery -->
+  <!-- start time line -->
+  <div class="time-line">
+    <div class="sub-heading">
+      <h3 class="main-heading">time line</h3>
+      <span class="icons"></span>
+    </div>
+    <div class="container">
+      <div class="year">2019</div>
+      <div class="experience left">
+        <h3>experience title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, officia, ullam. Sunt ratione aut nemo.</p>
+      </div>
+      <div class="clear-both"></div>
+      <div class="experience right">
+        <h3>experience title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, officia, ullam. Sunt ratione aut nemo.</p>
+      </div>
+      <div class="clear-both"></div>
+      <!-- secand year of experience  -->
+      <div class="year">2020</div>
+      <div class="experience left">
+        <h3>experience title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, officia, ullam. Sunt ratione aut nemo.</p>
+      </div>
+      <div class="clear-both"></div>
+      <div class="experience right">
+        <h3>experience title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, officia, ullam. Sunt ratione aut nemo.</p>
+      </div>
+      <div class="clear-both"></div>
+      <!-- secand year of experience  -->
+      <div class="year">2021</div>
+      <div class="experience left">
+        <h3>experience title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, officia, ullam. Sunt ratione aut nemo.</p>
+      </div>
+      <div class="clear-both"></div>
+      <div class="experience right">
+        <h3>experience title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, officia, ullam. Sunt ratione aut nemo.</p>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+  </div>
+  <!-- end time line -->
+  <!-- start features -->
+  <div class="features">
+    <div class="sub-heading">
+      <h3 class="main-heading">features</h3>
+      <span class="icons"></span>
+    </div>
+    <div class="container">
+      <div class="box">
+        <div class="image-cont">
+          <img src="imgs/feature-01.png" alt="">
+        </div>
+        <h3>congratulations</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime error, nihil nesciunt culpa tenetur neque illum quaerat.</p>
+        <a href="">more</a>
+      </div>
+      <div class="box">
+        <div class="image-cont">
+          <img src="imgs/feature-02.png" alt="">
+        </div>
+        <h3>time</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime error, nihil nesciunt culpa tenetur neque illum quaerat.</p>
+        <a href="">more</a>
+      </div>
+      <div class="box">
+        <div class="image-cont">
+          <img src="imgs/feature-03.png" alt="">
+        </div>
+        <h3>passion</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime error, nihil nesciunt culpa tenetur neque illum quaerat.</p>
+        <a href="">more</a>
+      </div>
+    </div>
+  </div>
+  <!-- end features -->
+  <!-- start testimonials -->
+  <div class="testimonials">
+    <div class="text-area">
+      <div class="text">
+        <h3>testimonials</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, nostrum, laboriosam. Quasi dolor ipsam nostrum deleniti officia assumenda, architecto nesciunt.</p>
+      </div>
+    </div>
+    <div class="opinion">
+      <div class="opi-cont">
+        <div class="box">
+          <div class="person-box">
+            <img src="imgs/avt-01.png" alt="">
+            <div class="person">
+              <h3>shireef ayman <i class="fas fa-circle-check"></i></h3>
+              <span>full stack developer</span>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quos debitis, necessitatibus, dicta facere adipisci!</p>
+        </div>
+        <div class="box">
+          <div class="person-box">
+            <img src="imgs/avt-02.png" alt="">
+            <div class="person">
+              <h3>mariam khaled <i class="fas fa-circle-check"></i></h3>
+              <span>full stack developer</span>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quos debitis, necessitatibus, dicta facere adipisci!</p>
+        </div>
+        <div class="box">
+          <div class="person-box">
+            <img src="imgs/avt-03.png" alt="">
+            <div class="person">
+              <h3>mohamed khaled <i class="fas fa-circle-check"></i></h3>
+              <span>full stack developer</span>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quos debitis, necessitatibus, dicta facere adipisci!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end testimonials -->
+  <!-- start contact us -->
+  <div class="contact-us">
+    <div class="sub-heading">
+      <h3 class="main-heading">contact us</h3>
+      <span class="icons"></span>
+    </div>
+    <div class="container">
+      <form action="" class="our-form">
+        <div class="left">
+          <div class="inpt-cont">
+            <input class="inp" type="text" placeholder="your name" name="userName">
+            <i class="fas fa-user icon"></i>
+          </div>
+          <div class="inpt-cont">
+            <input class="inp" type="number" placeholder="your phone" name="userPhone">
+            <i class="fas icon fa-phone"></i>
+          </div>
+          <div class="inpt-cont">
+            <input class="inp" type="email" placeholder="your email" name="userEmail">
+            <i class="fas icon fa-mail-forward"></i>
+          </div>
+          <div class="inpt-cont">
+            <input class="inp" type="text" placeholder="your subject" name="userSubject">
+            <i class="fas icon fa-external-link"></i>
+          </div>
+        </div>
+        <div class="right">
+          <div class="inpt-cont">
+            <textarea class="inp" placeholder="your message" name="userMessage"></textarea>
+            <i class="fas icon fa-message"></i>
+          </div>
+          <input type="submit" value="send">
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- end contact us -->
+  <!-- start people -->
+ <div class="people">
+    <div class="container">
+      <h3></h3>
+    </div>
+ </div>
+  <!-- end people -->
+  <!-- start footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="box">
+        <h3>amazing</h3>
+        <ul class="links">
+          <li><a href="" class="face"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="" class="twit"><i class="fab fa-twitter "></i></a></li>
+          <li><a href="" class="you"><i class="fab fa-youtube "></i></a></li>
+          <li><a href="" class="inst"><i class="fab fa-instagram "></i></a></li>
+          <li><a href="" class="git"><i class="fab fa-github "></i></a></li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum maiores harum quaerat voluptatem, qui amet.</p>
+      </div>
+      <div class="box">
+        <ul class="imp-links">
+          <li><a href="">important link</a></li>
+          <li><a href="">important link</a></li>
+          <li><a href="">important link</a></li>
+          <li><a href="">important link</a></li>
+          <li><a href="">important link</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <div class="line">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="info">Egypt, almansoura, inside the city, room number 220</div>
+        </div>
+        <div class="line">
+          <i class="far fa-clock"></i>
+          <div class="info">business hours: from 10:00am to 08:00pm</div>
+        </div>
+        <div class="line">
+          <i class="fas fa-phone"></i>
+          <div class="info">
+            <span>+201012345678</span>
+            <span>+201089123456</span>
+          </div>
+        </div>
+      </div>
+      <div class="box gall-img">
+        <img src="imgs/gallery-01.png" alt="image one">
+        <img src="imgs/gallery-02.png" alt="image two">
+        <img src="imgs/gallery-03.jpg" alt="image three">
+        <img src="imgs/gallery-04.png" alt="image four">
+        <img src="imgs/gallery-05.jpg" alt="image five">
+        <img src="imgs/gallery-06.png" alt="image six">
+      </div>
+    </div>
+    <p class="copyright">&copy; 2022 with <i class="fas fa-heart"></i> by mahmoud</p>
+  </div>
+  <!-- end footer -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
